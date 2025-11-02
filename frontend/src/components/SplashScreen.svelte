@@ -3,7 +3,7 @@
 </script>
 
 <div class="splash" transition:fade>
-  <div class="logo">SafePath UK</div>
+  <div class="logo">WalkSafe</div>
   <p>Preparing safety insights for your route…</p>
   <div class="progress">
     <div class="bar" />
