@@ -5,9 +5,10 @@
     map: 'Map 1',
     map2: 'Heatmap',
     map3: 'Colored Tilemap',
-    map4: 'Weighted Tilemap',
+    map4: 'Safe Map',
     map5: 'Simulation',
-    path: 'Safer Route Planner',
+    path: 'Safe Route Planner',
+    path5: 'Safe Route Planner',
     poi: 'Trusted Places Nearby',
     location: 'Where You Are Now'
   };

@@ -24,6 +24,15 @@
   let highlightLayer = null;
   let minCrimeOnRoute = 0;
   let maxCrimeOnRoute = 0;
+  let severityThresholds = {
+    low: 80,    // 0-80 percentile
+    medium: 95  // 80-95 percentile, 95-100 is high
+  };
+  let categorizedData = {
+    Low: 0,
+    Medium: 0,
+    High: 0
+  };
   
   const fromIcon = L.icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
@@ -97,7 +106,7 @@
   
   async function loadCrimeData() {
     try {
-      const response = await fetch('/data/crime_tile_data_v1.json');
+      const response = await fetch('/data/crime_tile_data_v2.json');
       const text = await response.text();
       
       // Parse JSON Lines format (one JSON object per line)
@@ -112,16 +121,54 @@
             return null;
           }
         })
-        .filter(item => item && item.crime_count);
+        .filter(item => item && item.weighted_crime_decayed_sum);
+      
+      // Calculate quantile-based severity categories
+      calculateQuantileCategories();
       
       // Find max crime count for normalization
       maxCrimeCount = Math.max(...crimeData.map(tile => tile.crime_count));
       
       console.log(`Loaded ${crimeData.length} crime tiles`);
-      console.log(`Max crime count: ${maxCrimeCount}`);
+      console.log(`Severity distribution: Low=${categorizedData.Low}, Medium=${categorizedData.Medium}, High=${categorizedData.High}`);
     } catch (error) {
       console.error('Failed to load crime tile data:', error);
     }
+  }
+  
+  function calculateQuantileCategories() {
+    if (crimeData.length === 0) return;
+    
+    // Sort crime data by weighted_crime_decayed_sum
+    const sortedCrimes = [...crimeData].sort((a, b) => 
+      a.weighted_crime_decayed_sum - b.weighted_crime_decayed_sum
+    );
+    
+    // Calculate percentile indices
+    const lowIndex = Math.floor((severityThresholds.low / 100) * sortedCrimes.length);
+    const mediumIndex = Math.floor((severityThresholds.medium / 100) * sortedCrimes.length);
+    
+    // Get threshold values
+    const lowThreshold = sortedCrimes[lowIndex]?.weighted_crime_decayed_sum || 0;
+    const mediumThreshold = sortedCrimes[mediumIndex]?.weighted_crime_decayed_sum || 0;
+    
+    // Categorize each tile
+    categorizedData = { Low: 0, Medium: 0, High: 0 };
+    
+    crimeData.forEach(tile => {
+      if (tile.weighted_crime_decayed_sum <= lowThreshold) {
+        tile.calculated_severity = 'Low';
+        categorizedData.Low++;
+      } else if (tile.weighted_crime_decayed_sum <= mediumThreshold) {
+        tile.calculated_severity = 'Medium';
+        categorizedData.Medium++;
+      } else {
+        tile.calculated_severity = 'High';
+        categorizedData.High++;
+      }
+    });
+    
+    console.log(`Thresholds: Low ≤ ${lowThreshold.toFixed(2)}, Medium ≤ ${mediumThreshold.toFixed(2)}, High > ${mediumThreshold.toFixed(2)}`);
   }
   
   function addCrimeTiles() {
@@ -136,27 +183,95 @@
         [tile.max_latitude, tile.max_longitude]
       ];
       
-      // Normalize crime count (0 to 1)
-      const normalizedIntensity = tile.crime_count / maxCrimeCount;
+      // Determine color and opacity based on calculated_severity (quantile-based)
+      let fillColor, fillOpacity;
+      const severity = tile.calculated_severity || 'Low';
       
-      // Get opacity based on intensity (0% = transparent, 100% = 50% blue)
-      const opacity = 0.2 + normalizedIntensity * 0.5; // Max 50% opacity
+      if (severity === 'High') {
+        fillColor = '#cc0000'; // Red for high crime
+        fillOpacity = 0.6;
+      } else if (severity === 'Medium') {
+        fillColor = '#ffcc00'; // Orange for medium crime
+        fillOpacity = 0.5;
+      } else if (severity === 'Low') {
+        fillColor = '#99ccff'; // Green for low crime
+        fillOpacity = 0.4;
+      } else {
+        fillColor = '#9e9e9e'; // Grey for unknown
+        fillOpacity = 0.3;
+      }
       
-      // Create rectangle for this tile
+      // Create rectangle for this tile with rounded corners
       const rectangle = L.rectangle(bounds, {
-        color: '#0066ff',
-        fillColor: '#0066ff',
-        fillOpacity: opacity,
-        weight: 0, // No border
-        opacity: 0,
-        className: 'crime-tile'
+        color: fillColor,
+        fillColor: fillColor,
+        fillOpacity: fillOpacity,
+        weight: 1,
+        opacity: 0.8,
+        className: 'rounded-tile'
       });
       
-      // Add popup with crime count
-      rectangle.bindPopup(`
-        <strong>Crime Count: ${tile.crime_count}</strong><br>
-        Area: ${(tile.max_latitude - tile.min_latitude).toFixed(5)}° × ${(tile.max_longitude - tile.min_longitude).toFixed(5)}°
-      `);
+      // Build detailed popup with all available data
+      let popupContent = `
+        <div style="min-width: 300px;">
+          <h3 style="margin: 0 0 10px 0; color: ${fillColor};">Crime Severity: ${severity} (Quantile-based)</h3>
+          
+          <div style="margin-bottom: 10px; padding: 8px; background: #f5f5f5; border-radius: 4px;">
+            <strong>📊 Crime Statistics</strong><br>
+            <span style="font-size: 0.9em;">
+              Total Crimes: <strong>${tile.crime_count}</strong><br>
+              Weighted Sum: <strong>${tile.weighted_crime_sum}</strong><br>
+              Decayed Sum: <strong>${tile.weighted_crime_decayed_sum.toFixed(2)}</strong><br>
+            </span>
+          </div>
+          
+          <div style="padding: 8px; background: #f5f5f5; border-radius: 4px;">
+            <strong>🔍 Crime Breakdown</strong><br>
+            <span style="font-size: 0.85em;">
+      `;
+      
+      // Add crime type breakdown
+      const crimeTypes = [
+        { key: 'Anti-social behaviour', label: 'Anti-social behaviour' },
+        { key: 'Bicycle theft', label: 'Bicycle theft' },
+        { key: 'Burglary', label: 'Burglary' },
+        { key: 'Criminal damage and arson', label: 'Criminal damage & arson' },
+        { key: 'Drugs', label: 'Drugs' },
+        { key: 'Other crime', label: 'Other crime' },
+        { key: 'Other theft', label: 'Other theft' },
+        { key: 'Possession of weapons', label: 'Weapons possession' },
+        { key: 'Public order', label: 'Public order' },
+        { key: 'Robbery', label: 'Robbery' },
+        { key: 'Shoplifting', label: 'Shoplifting' },
+        { key: 'Theft from the person', label: 'Theft from person' },
+        { key: 'Vehicle crime', label: 'Vehicle crime' },
+        { key: 'Violence and sexual offences', label: 'Violence & sexual offences' }
+      ];
+      
+      // Sort crime types by count (descending) and filter out zeros
+      const sortedCrimeTypes = crimeTypes
+        .map(type => ({
+          ...type,
+          count: tile[type.key] || 0
+        }))
+        .filter(type => type.count > 0)
+        .sort((a, b) => b.count - a.count);
+      
+      sortedCrimeTypes.forEach(type => {
+        popupContent += `${type.label}: <strong>${type.count}</strong><br>`;
+      });
+      
+      popupContent += `
+            </span>
+          </div>
+        </div>
+      `;
+      
+      // Bind popup
+      rectangle.bindPopup(popupContent, {
+        maxWidth: 300,
+        maxHeight: 500
+      });
       
       // Add to layer group
       rectangle.addTo(crimeTileLayer);
@@ -513,7 +628,6 @@
             <div class="tile-content">
               <div class="tile-info">
                 <div class="crime-count">
-                  <span class="crime-icon">🔴</span>
                   <span class="crime-number">{tile.crimeCount}</span>
                   <span class="crime-label">crimes</span>
                 </div>
@@ -525,20 +639,6 @@
                   {:else}
                     <span class="level-badge low">✓ Low Risk</span>
                   {/if}
-                </div>
-              </div>
-              <div class="tile-location">
-                <div class="location-row">
-                  <span class="location-icon">📍</span>
-                  <span class="location-text">
-                    Lat: {tile.centerLat.toFixed(5)}, Lng: {tile.centerLng.toFixed(5)}
-                  </span>
-                </div>
-                <div class="location-row">
-                  <span class="location-icon">📐</span>
-                  <span class="location-text">
-                    Area: {((tile.bounds.maxLat - tile.bounds.minLat) * (tile.bounds.maxLng - tile.bounds.minLng) * 111 * 111).toFixed(0)} km²
-                  </span>
                 </div>
               </div>
               <div class="tile-percentage">
@@ -924,6 +1024,16 @@
     50% {
       opacity: 0.6;
     }
+  }
+  
+  /* Rounded corners for crime tiles */
+  :global(.rounded-tile) {
+    border-radius: 8px;
+  }
+  
+  :global(path.rounded-tile) {
+    rx: 8;
+    ry: 8;
   }
   
   @media (max-width: 768px) {
