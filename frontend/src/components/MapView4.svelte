@@ -167,7 +167,6 @@
               Total Crimes: <strong>${tile.crime_count}</strong><br>
               Weighted Sum: <strong>${tile.weighted_crime_sum}</strong><br>
               Decayed Sum: <strong>${tile.weighted_crime_decayed_sum.toFixed(2)}</strong><br>
-              Original Label: <strong>${tile.crime_severity_label || 'N/A'}</strong>
             </span>
           </div>
           

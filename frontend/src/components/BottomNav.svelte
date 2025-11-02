@@ -2,9 +2,9 @@
   import { activeScreen } from '../lib/stores';
 
   const items = [
-    { id: 'map4', label: 'Tilemap', icon: 'map' },
+    { id: 'map4', label: 'Safe Map', icon: 'map' },
     { id: 'map5', label: 'Simulation', icon: 'map' },
-     { id: 'path5', label: 'Safe Path 2', icon: 'directions' },
+     { id: 'path5', label: 'Safe Path', icon: 'directions' },
     { id: 'poi', label: 'Places', icon: 'place' },
   ];
 
