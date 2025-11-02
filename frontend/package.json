@@ -1,0 +1,24 @@
+{
+  "name": "safepath-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@smui/slider": "^7.0.0",
+    "@smui/textfield": "^7.0.0",
+    "@supabase/supabase-js": "^2.44.2",
+    "leaflet": "^1.9.4",
+    "leaflet.heat": "^0.2.0",
+    "svelte": "^4.2.18"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "sass": "^1.69.7",
+    "vite": "^5.1.6"
+  }
+}

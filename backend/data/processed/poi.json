@@ -1,0 +1,67 @@
+[
+  {
+    "id": "poi-1",
+    "name": "Kingsway Supermarket",
+    "category": "Shop",
+    "lat": 51.5095,
+    "lng": -0.127,
+    "address": "12 Kingsway, London",
+    "description": "Late-night supermarket with CCTV and security on site.",
+    "safety_level": "low",
+    "open_until": "23:00",
+    "open_hours": "08:00 - 23:00",
+    "distance": 0.12
+  },
+  {
+    "id": "poi-2",
+    "name": "Covent Garden Café",
+    "category": "Restaurant",
+    "lat": 51.511,
+    "lng": -0.124,
+    "address": "25 Floral Street, London",
+    "description": "Bright café popular with students and families.",
+    "safety_level": "low",
+    "open_until": "22:00",
+    "open_hours": "07:00 - 22:00",
+    "distance": 0.18
+  },
+  {
+    "id": "poi-3",
+    "name": "Riverside Bar",
+    "category": "Bar",
+    "lat": 51.507,
+    "lng": -0.118,
+    "address": "South Bank, London",
+    "description": "Busy bar with door staff on weekends.",
+    "safety_level": "medium",
+    "open_until": "01:00",
+    "open_hours": "12:00 - 01:00",
+    "distance": 0.4
+  },
+  {
+    "id": "poi-4",
+    "name": "Night Owl Club",
+    "category": "Club",
+    "lat": 51.513,
+    "lng": -0.135,
+    "address": "34 Soho St, London",
+    "description": "Student-friendly club with secure taxi partnerships.",
+    "safety_level": "medium",
+    "open_until": "03:00",
+    "open_hours": "20:00 - 03:00",
+    "distance": 0.5
+  },
+  {
+    "id": "poi-5",
+    "name": "Holborn Police Contact Point",
+    "category": "Public service",
+    "lat": 51.517,
+    "lng": -0.12,
+    "address": "10 High Holborn, London",
+    "description": "Police contact point open evenings for assistance.",
+    "safety_level": "low",
+    "open_until": "20:00",
+    "open_hours": "12:00 - 20:00",
+    "distance": 0.3
+  }
+]

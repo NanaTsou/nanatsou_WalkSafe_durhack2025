@@ -1,0 +1,3002 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-11-01T18:10:29Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 313076158,
+  "lat": 54.7761448,
+  "lon": -1.5750704,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "66",
+    "addr:postcode": "DH1 3NP",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "check_date": "2024-12-31",
+    "fhrs:id": "303419",
+    "level": "1",
+    "name": "La Spaghettata",
+    "website": "https://www.fabiosdurham.com/la-spaghettata"
+  }
+},
+{
+  "type": "node",
+  "id": 391426639,
+  "lat": 54.7806277,
+  "lon": -1.5767600,
+  "tags": {
+    "addr:postcode": "DH1 5TA",
+    "amenity": "restaurant",
+    "name": "Jozef's Restaurant",
+    "old_name": "Collage bar and restaurant",
+    "operator": "Radisson Blue",
+    "website": "https://radissonbludurham.com/dine/"
+  }
+},
+{
+  "type": "node",
+  "id": 940823093,
+  "lat": 54.7765249,
+  "lon": -1.5783341,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 4SL",
+    "addr:unit": "30B",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "fhrs:id": "303255",
+    "level": "-2",
+    "name": "Inshanghai",
+    "website": "https://theriverwalk.co.uk/eat-drink/inshanghai/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 943044952,
+  "lat": 54.7784996,
+  "lon": -1.5749315,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 1WA",
+    "amenity": "bar",
+    "fhrs:id": "303064",
+    "name": "Gala Lounge",
+    "source:postcode": "CodePoint Open",
+    "website": "https://galadurham.co.uk/food-drink/"
+  }
+},
+{
+  "type": "node",
+  "id": 943067781,
+  "lat": 54.7781249,
+  "lon": -1.5759384,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 1SQ",
+    "addr:unit": "6A",
+    "amenity": "restaurant",
+    "cuisine": "brazilian",
+    "disused:amenity": "restaurant",
+    "fhrs:id": "1535516",
+    "level": "3",
+    "name": "Rio Brazilian Steakhouse",
+    "old_name": "Chiquito Mexican Grill and Bar",
+    "website": "https://www.rio-steakhouse.co.uk/durham"
+  }
+},
+{
+  "type": "node",
+  "id": 3870114372,
+  "lat": 54.7764884,
+  "lon": -1.5767093,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "32a",
+    "addr:postcode": "DH1 3RD",
+    "addr:street": "Silver Street",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "fhrs:id": "1660800",
+    "level": "1",
+    "name": "Pesto Italiano",
+    "old_name": "Akarsu",
+    "outdoor_seating": "no",
+    "website": "https://www.pestoitalianodurham.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4732229021,
+  "lat": 54.7732600,
+  "lon": -1.5898680,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 4DX",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "fhrs:id": "1138026",
+    "name": "Holi and Bhang",
+    "source:postcode": "FHRS data",
+    "url": "https://www.farnley-tower.co.uk/holi-and-bhang-restaurant.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5543823531,
+  "lat": 54.7761312,
+  "lon": -1.5751459,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "66",
+    "addr:postcode": "DH1 3NP",
+    "addr:street": "Saddler Street",
+    "amenity": "bar",
+    "fhrs:id": "550229",
+    "name": "Fabios Bar",
+    "website": "https://www.fabiosdurham.com/fabiosbar"
+  }
+},
+{
+  "type": "node",
+  "id": 5562852590,
+  "lat": 54.7748554,
+  "lon": -1.5700726,
+  "tags": {
+    "amenity": "bar",
+    "name": "Rotunda Bar and Lounge"
+  }
+},
+{
+  "type": "node",
+  "id": 6137570862,
+  "lat": 54.7747526,
+  "lon": -1.5744178,
+  "tags": {
+    "access": "private",
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 3RQ",
+    "addr:street": "Hatfield College",
+    "amenity": "bar",
+    "fhrs:id": "303358",
+    "name": "Hatfield College Bar"
+  }
+},
+{
+  "type": "node",
+  "id": 6534011052,
+  "lat": 54.7800448,
+  "lon": -1.5817644,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "North Platform, Railway Station",
+    "addr:postcode": "DH1 4RB",
+    "addr:street": "Station Approach",
+    "amenity": "pub",
+    "contact:facebook": "thewaitingroomdurham",
+    "dog": "yes",
+    "fhrs:id": "866145",
+    "indoor_seating": "yes",
+    "name": "The Waiting Room",
+    "outdoor_seating": "yes",
+    "payment:american_express": "yes",
+    "payment:visa": "yes",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7026965620,
+  "lat": 54.7733114,
+  "lon": -1.5721406,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 3AN",
+    "amenity": "bar",
+    "fhrs:id": "765223",
+    "name": "Riverside Bar & Cafe",
+    "operator": "Durham Student Union",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.durhamsu.com/riverside"
+  }
+},
+{
+  "type": "node",
+  "id": 7598890864,
+  "lat": 54.7780570,
+  "lon": -1.5730553,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "84",
+    "addr:postcode": "DH1 1RG",
+    "addr:street": "Claypath",
+    "amenity": "restaurant",
+    "cuisine": "mexican;mediterranean",
+    "fhrs:id": "1814826",
+    "name": "Tia's",
+    "source:addr": "FHRS Open Data",
+    "website": "https://tiasmexican.co.uk/"
+  }
+},
+{
+  "type": "node",
+  "id": 7692938506,
+  "lat": 54.7782349,
+  "lon": -1.5757294,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "Walkergate Leisure",
+    "addr:postcode": "DH1 1SQ",
+    "amenity": "pub",
+    "brand": "Wetherspoon",
+    "brand:wikidata": "Q6109362",
+    "brand:wikipedia": "en:Wetherspoons",
+    "brewery": "various",
+    "dog": "no",
+    "fhrs:id": "303231",
+    "food": "yes",
+    "layer": "1",
+    "lloyds_bar": "yes",
+    "name": "The Bishops' Mill",
+    "outdoor_seating": "yes",
+    "phone": "+44 191 370 8510",
+    "ref:vatin": "GB396331433",
+    "website": "https://www.jdwetherspoon.com/pubs/all-pubs/england/county-durham/the-bishops-mill-durham"
+  }
+},
+{
+  "type": "node",
+  "id": 7692938507,
+  "lat": 54.7780523,
+  "lon": -1.5755658,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 1SQ",
+    "addr:unit": "4",
+    "amenity": "restaurant",
+    "brand": "ASK Italian",
+    "brand:wikidata": "Q4807056",
+    "cuisine": "italian",
+    "fhrs:id": "1334698",
+    "level": "3",
+    "name": "ASK Italian",
+    "website": "https://www.askitalian.co.uk/italian/restaurants/durham"
+  }
+},
+{
+  "type": "node",
+  "id": 7692938508,
+  "lat": 54.7780825,
+  "lon": -1.5757388,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 1SQ",
+    "addr:street": "Walkergate",
+    "addr:unit": "5",
+    "amenity": "restaurant",
+    "brand": "Nando's",
+    "brand:wikidata": "Q3472954",
+    "cuisine": "chicken;portuguese",
+    "delivery": "yes",
+    "fhrs:id": "303189",
+    "level": "3",
+    "name": "Nando's",
+    "website": "https://www.nandos.co.uk/restaurants/durham"
+  }
+},
+{
+  "type": "node",
+  "id": 7706946612,
+  "lat": 54.7776192,
+  "lon": -1.5781273,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "The Riverwalk",
+    "addr:housenumber": "14",
+    "addr:postcode": "DH1 4SL",
+    "addr:street": "Millburngate",
+    "addr:unit": "R9",
+    "amenity": "restaurant",
+    "branch": "Durham",
+    "brand": "Cosy Club",
+    "brand:wikidata": "Q108443521",
+    "cuisine": "british",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "durhambookings@cosyclub.co.uk",
+    "fhrs:id": "1181315",
+    "indoor_seating": "yes",
+    "level": "1",
+    "name": "Cosy Club",
+    "opening_hours": "Su-We 09:00-23:00, Th 09:00-24:00, Fr,Sa 09:00-01:00",
+    "outdoor_seating": "no",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+44 191 205 8025",
+    "source:addr": "FHRS Open Data",
+    "source:postcode": "website",
+    "website": "https://cosyclub.co.uk/location/durham/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7885134403,
+  "lat": 54.7774571,
+  "lon": -1.5781916,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "The Riverwalk",
+    "addr:housenumber": "16",
+    "addr:postcode": "DH1 4SL",
+    "addr:street": "Millburngate",
+    "amenity": "restaurant",
+    "cuisine": "mediterranean",
+    "fhrs:id": "1375806",
+    "name": "El Pincho",
+    "outdoor_seating": "yes",
+    "source:addr": "FHRS Open Data",
+    "website": "http://elpinchodurham.co.uk/"
+  }
+},
+{
+  "type": "node",
+  "id": 7938568341,
+  "lat": 54.7755486,
+  "lon": -1.5768049,
+  "tags": {
+    "amenity": "bar",
+    "name": "Undercroft Bar"
+  }
+},
+{
+  "type": "node",
+  "id": 8514453212,
+  "lat": 54.7762313,
+  "lon": -1.5740185,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "18A",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "bar",
+    "fhrs:id": "973333",
+    "name": "Tin of Sardines",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "node",
+  "id": 8514453215,
+  "lat": 54.7762710,
+  "lon": -1.5741928,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "17",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "restaurant",
+    "fhrs:id": "665852",
+    "level": "-1",
+    "name": "Restaurant 17",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "node",
+  "id": 8514505319,
+  "lat": 54.7763251,
+  "lon": -1.5745097,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "14",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "restaurant",
+    "cuisine": "spanish",
+    "fhrs:id": "960572",
+    "name": "Tapas Factory",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "node",
+  "id": 8779012668,
+  "lat": 54.7758680,
+  "lon": -1.5716296,
+  "tags": {
+    "amenity": "restaurant",
+    "brand:website": "https://www.castirongrill.co.uk/",
+    "name": "Cast Iron Bar & Grill",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8988502585,
+  "lat": 54.7739705,
+  "lon": -1.5575078,
+  "tags": {
+    "amenity": "bar",
+    "contact:facebook": "1860Bar",
+    "name": "1860 Bar & Kitchen",
+    "operator": "Durham Amateur Rowing Club",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9212446439,
+  "lat": 54.7778597,
+  "lon": -1.5780723,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 4SL",
+    "addr:street": "The Riverwalk",
+    "addr:unit": "7",
+    "amenity": "restaurant",
+    "brand": "Turtle Bay",
+    "brand:wikidata": "Q127601863",
+    "cuisine": "caribbean",
+    "fhrs:id": "1396808",
+    "name": "Turtle Bay",
+    "outdoor_seating": "no",
+    "source:addr": "FHRS data",
+    "website": "https://www.turtlebay.co.uk/restaurants/durham"
+  }
+},
+{
+  "type": "node",
+  "id": 9212551127,
+  "lat": 54.7761159,
+  "lon": -1.5750394,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "66",
+    "addr:postcode": "DH1 3NP",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "check_date": "2024-12-31",
+    "cuisine": "turkish",
+    "fhrs:id": "1339385",
+    "name": "Turkish Kitchen Meze & Grill",
+    "source:addr": "FHRS data",
+    "website": "https://turkishkitchendurham.co.uk"
+  }
+},
+{
+  "type": "node",
+  "id": 9388336887,
+  "lat": 54.7761967,
+  "lon": -1.5739337,
+  "tags": {
+    "amenity": "bar",
+    "contact:facebook": "https://www.facebook.com/p/Bridewell-Gaol-Bar-at-Jimmy-Allens-100039615023430",
+    "name": "Bridewell Goal Bar",
+    "operator": "Jimmy Allen's"
+  }
+},
+{
+  "type": "node",
+  "id": 9705263998,
+  "lat": 54.7777383,
+  "lon": -1.5780910,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:place": "The Riverwalk",
+    "addr:postcode": "DH1 4SL",
+    "addr:unit": "Unit 12",
+    "amenity": "bar",
+    "cuisine": "pizza",
+    "fhrs:id": "1861956",
+    "food": "yes",
+    "name": "Veeno",
+    "old_name": "Pizza Punks",
+    "website": "https://veenobars.com/pages/durham"
+  }
+},
+{
+  "type": "node",
+  "id": 9961682117,
+  "lat": 54.7782318,
+  "lon": -1.5760982,
+  "tags": {
+    "amenity": "bar",
+    "name": "Katie O'Briens",
+    "old_name": "The Butterfly Room",
+    "website": "https://www.walkergate-durham.co.uk/venue/katie-obriens/"
+  }
+},
+{
+  "type": "node",
+  "id": 10027652501,
+  "lat": 54.7759620,
+  "lon": -1.5746525,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "39",
+    "addr:postcode": "DH1 3NU",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "check_date": "2023-11-03",
+    "cuisine": "burger",
+    "fhrs:id": "1656918",
+    "name": "Tango",
+    "old_name": "Bill's",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.tangodurham.co.uk/"
+  }
+},
+{
+  "type": "node",
+  "id": 10793930307,
+  "lat": 54.7766175,
+  "lon": -1.5791117,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 4SL",
+    "addr:unit": "38b",
+    "amenity": "bar",
+    "contact:facebook": "https://m.facebook.com/people/Kitts-Pool-Room-Bar-Durham/100087179856825/",
+    "fhrs:id": "1604411",
+    "level": "1",
+    "name": "Kitt's Pool Room & Bar",
+    "source:addr": "FHRS Open Data",
+    "sport": "pool"
+  }
+},
+{
+  "type": "node",
+  "id": 11240830690,
+  "lat": 54.7789519,
+  "lon": -1.5565422,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "113-114",
+    "addr:postcode": "DH1 1QG",
+    "addr:street": "Gilesgate",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/people/Vina-Pho-Durham/100092315824704/",
+    "cuisine": "vietnamese",
+    "fhrs:id": "1605375",
+    "name": "Vina Pho",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12117394017,
+  "lat": 54.7738506,
+  "lon": -1.5615338,
+  "tags": {
+    "addr:postcode": "DH1 3JU",
+    "amenity": "restaurant",
+    "cuisine": "indian",
+    "delivery": "yes",
+    "fhrs:id": "1631527",
+    "name": "Amaani Bar",
+    "takeaway": "yes",
+    "website": "https://amaanibarandbuffet.co.uk/"
+  }
+},
+{
+  "type": "node",
+  "id": 12437227267,
+  "lat": 54.7646690,
+  "lon": -1.5753552,
+  "tags": {
+    "alt_name": "Grey College Bar",
+    "amenity": "bar",
+    "contact:facebook": "GreyCollegeBar",
+    "name": "The Greyhound"
+  }
+},
+{
+  "type": "node",
+  "id": 12824187434,
+  "lat": 54.7769184,
+  "lon": -1.5784595,
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "The Riverwalk",
+    "addr:postcode": "DH1 4SL",
+    "addr:unit": "Unit 21",
+    "amenity": "restaurant",
+    "cuisine": "thai",
+    "fhrs:id": "1688969",
+    "name": "Zaap Thai",
+    "outdoor_seating": "no",
+    "website": "https://zaapthai.co.uk/locations/durham/"
+  }
+},
+{
+  "type": "way",
+  "id": 78518676,
+  "center": {
+    "lat": 54.7791555,
+    "lon": -1.5626206
+  },
+  "nodes": [
+    921381065,
+    921381474,
+    921381578,
+    921381403,
+    921381065
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "10",
+    "addr:postcode": "DH1 1LJ",
+    "addr:street": "Station Lane",
+    "addr:suburb": "Gilesgate",
+    "amenity": "restaurant",
+    "building": "amenity",
+    "cuisine": "italian",
+    "fhrs:id": "1763921",
+    "name": "Little Sicily",
+    "old_name": "Sambuca",
+    "source:addr": "FHRS Open Data",
+    "website": "https://littlesicily2.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 81522976,
+  "center": {
+    "lat": 54.7748330,
+    "lon": -1.5747769
+  },
+  "nodes": [
+    356044053,
+    950087281,
+    8988608138,
+    950087079,
+    8988608141,
+    950087358,
+    8988608143,
+    950087666,
+    356044053
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "47",
+    "addr:postcode": "DH1 3ET",
+    "addr:street": "North Bailey",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "lebanese",
+    "fhrs:id": "1794773",
+    "name": "Lebaneat",
+    "website": "https://www.lebaneat.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 81522984,
+  "center": {
+    "lat": 54.7749113,
+    "lon": -1.5747706
+  },
+  "nodes": [
+    950086984,
+    950087693,
+    8988608144,
+    8988608147,
+    950087315,
+    452991232,
+    950087059,
+    356044053,
+    950087666,
+    950086984
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "48",
+    "addr:postcode": "DH1 3ET",
+    "addr:street": "North Bailey",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "indian",
+    "fhrs:id": "303356",
+    "name": "Shaheen's Indian",
+    "ref:GB:uprn": "100110421971",
+    "wikidata": "Q26414604",
+    "wikimedia_commons": "File:North Bailey, Durham (2021-05-27) 27.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 81584596,
+  "center": {
+    "lat": 54.7785471,
+    "lon": -1.5756904
+  },
+  "nodes": [
+    943062494,
+    1108410421,
+    950793453,
+    950793979,
+    1108410381,
+    1108410689,
+    1108411184,
+    1108410432,
+    950793834,
+    950793373,
+    950793314,
+    1108410358,
+    943062494
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "Durham City",
+    "addr:place": "Freemans Place",
+    "addr:postcode": "DH1 1SQ",
+    "addr:street": "Walkergate",
+    "addr:unit": "8",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "303281",
+    "layer": "1",
+    "name": "Ebony Champagne and Cocktail bar",
+    "outdoor_seating": "yes",
+    "ref:GB:uprn": "10001010767",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 81584694,
+  "center": {
+    "lat": 54.7787254,
+    "lon": -1.5668992
+  },
+  "nodes": [
+    950480281,
+    1028277901,
+    1028277950,
+    1028277870,
+    1028277917,
+    1028277892,
+    950480910,
+    950793355,
+    950793172,
+    950480281
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "23",
+    "addr:postcode": "DH1 1QW",
+    "addr:street": "Gilesgate",
+    "amenity": "pub",
+    "animal": "yes",
+    "building": "amenity",
+    "fhrs:id": "1519759",
+    "name": "The Woodman Inn",
+    "source": "OS_OpenData_StreetView",
+    "wikimedia_commons": "File:The Woodman inn - geograph.org.uk - 1586844.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 82614342,
+  "center": {
+    "lat": 54.7720607,
+    "lon": -1.5704571
+  },
+  "nodes": [
+    961473236,
+    961473423,
+    961473086,
+    961472784,
+    8889896574,
+    8889896573,
+    961473575,
+    112262613,
+    961473236
+  ],
+  "tags": {
+    "accommodation": "yes",
+    "addr:city": "Durham",
+    "addr:housenumber": "86",
+    "addr:postcode": "DH1 3AS",
+    "addr:street": "Hallgarth Street",
+    "amenity": "pub",
+    "building": "yes",
+    "email": "mwebstervictoria@gmail.com",
+    "fhrs:id": "715821",
+    "name": "The Victoria",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+44 191 386 5269",
+    "source:postcode": "FHRS data",
+    "website": "http://www.victoriainn-durhamcity.co.uk/",
+    "wikidata": "Q18162495",
+    "wikimedia_commons": "File:The Victoria Hallgarth Street - geograph.org.uk - 1630645.jpg",
+    "wikipedia": "en:The Victoria, Durham"
+  }
+},
+{
+  "type": "way",
+  "id": 86132269,
+  "center": {
+    "lat": 54.7690193,
+    "lon": -1.5736599
+  },
+  "nodes": [
+    30813016,
+    1599241136,
+    1599241134,
+    3807626000,
+    999670894,
+    999670679,
+    1599241154,
+    999671917,
+    1599241153,
+    999671366,
+    1599241152,
+    1599241151,
+    1599241142,
+    1599241140,
+    5528876978,
+    30813016
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "29",
+    "addr:postcode": "DH1 3DN",
+    "addr:street": "Church Street Head",
+    "amenity": "restaurant",
+    "building": "amenity",
+    "fhrs:id": "1688976",
+    "indoor_seating": "yes",
+    "name": "Whitechurch",
+    "old_name": "New Inn",
+    "outdoor_seating": "yes",
+    "source:addr": "FHRS Open Data",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 86176718,
+  "center": {
+    "lat": 54.7720213,
+    "lon": -1.5700127
+  },
+  "nodes": [
+    1000256272,
+    1000254759,
+    1000256927,
+    1000256607,
+    1000255823,
+    1000256272
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "17",
+    "addr:postcode": "DH1 3AT",
+    "addr:street": "Hallgarth Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "ele": "51.32",
+    "fhrs:id": "1054782",
+    "name": "The Rabbit Hole",
+    "old_name": "El Coto",
+    "website": "https://www.therabbitholedurham.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 95596403,
+  "center": {
+    "lat": 54.7784406,
+    "lon": -1.5710675
+  },
+  "nodes": [
+    1108410925,
+    1108410778,
+    1108411019,
+    1108410837,
+    1108410925
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "Durham City",
+    "addr:housenumber": "69",
+    "addr:postcode": "DH1 1QT",
+    "addr:street": "Claypath",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "indian",
+    "fhrs:id": "1776062",
+    "name": "The Capital",
+    "source:addr": "FHRS Open Data",
+    "wikidata": "Q26453152"
+  }
+},
+{
+  "type": "way",
+  "id": 95596418,
+  "center": {
+    "lat": 54.7779416,
+    "lon": -1.5733845
+  },
+  "nodes": [
+    1108410361,
+    1108410594,
+    1108410475,
+    1108411036,
+    1108410361
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "88",
+    "addr:postcode": "DH1 1RG",
+    "addr:street": "Claypath",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "japanese",
+    "fhrs:id": "1545653",
+    "name": "Ajiwai",
+    "old_name": "Meat & Meze",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.ajiwai.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 95596424,
+  "center": {
+    "lat": 54.7781870,
+    "lon": -1.5723346
+  },
+  "nodes": [
+    4573501401,
+    4573501402,
+    1108410752,
+    1108410489,
+    9033036161,
+    9033036162,
+    4573501401
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "Durham City",
+    "addr:housenumber": "80",
+    "addr:postcode": "DH1 1QT",
+    "addr:street": "Claypath",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "fhrs:id": "1088086",
+    "name": "Sense",
+    "old_name": "Rajpooth",
+    "ref:GB:uprn": "100110408857",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.sensedurham.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 95596445,
+  "center": {
+    "lat": 54.7778479,
+    "lon": -1.5738057
+  },
+  "nodes": [
+    1108410928,
+    1108410575,
+    1108410460,
+    1108410839,
+    1108410928
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "91A",
+    "addr:postcode": "DH1 1RG",
+    "addr:street": "Claypath",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "1242923",
+    "name": "Drunken Duck",
+    "old_name": "The John Duck",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 95596544,
+  "center": {
+    "lat": 54.7784139,
+    "lon": -1.5712086
+  },
+  "nodes": [
+    1108410875,
+    1108410925,
+    1108410837,
+    1108410771,
+    1108410875
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "Durham City",
+    "addr:housenumber": "70",
+    "addr:postcode": "DH1 1QT",
+    "addr:street": "Claypath",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "italian",
+    "fhrs:id": "1011747",
+    "name": "Bistro Italiano",
+    "ref:GB:uprn": "100110738197",
+    "source:addr": "FHRS Open Data",
+    "website": "http://bistro-italiano.co.uk/",
+    "wikidata": "Q26608978"
+  }
+},
+{
+  "type": "way",
+  "id": 104209656,
+  "center": {
+    "lat": 54.7760897,
+    "lon": -1.5741327
+  },
+  "nodes": [
+    1202429158,
+    8328196397,
+    1202429141,
+    8328196400,
+    1202429244,
+    1202429158
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "20",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "1273162",
+    "layer": "-1",
+    "name": "19 Twenty Bar & Grill",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 104209658,
+  "center": {
+    "lat": 54.7762228,
+    "lon": -1.5747237
+  },
+  "nodes": [
+    1202429131,
+    1202429284,
+    1202429168,
+    1202429193,
+    1202429131
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "25",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "1155985",
+    "name": "Blue Eye - Bar & Cafe",
+    "old_name": "Newcastle Building Society",
+    "source:addr": "FHRS Open Data",
+    "wheelchair": "yes",
+    "wikidata": "Q26597302"
+  }
+},
+{
+  "type": "way",
+  "id": 104209670,
+  "center": {
+    "lat": 54.7759881,
+    "lon": -1.5744136
+  },
+  "nodes": [
+    1202429202,
+    1202429192,
+    1202429123,
+    1202429200,
+    1202429267,
+    1202429229,
+    1202429202
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "21A",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "1561723",
+    "level": "1",
+    "name": "Osbournes",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 104209678,
+  "center": {
+    "lat": 54.7762417,
+    "lon": -1.5748033
+  },
+  "nodes": [
+    1202429271,
+    1202429131,
+    1202429193,
+    1202932002,
+    1202931990,
+    1202429226,
+    1202429271
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "26",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "italian",
+    "fhrs:id": "1760052",
+    "name": "Caffè Capriccio",
+    "ref:GB:uprn": "100110738547",
+    "source:addr": "FHRS Open Data",
+    "wikidata": "Q26413859"
+  }
+},
+{
+  "type": "way",
+  "id": 104209682,
+  "center": {
+    "lat": 54.7763510,
+    "lon": -1.5745976
+  },
+  "nodes": [
+    1202429181,
+    1202429196,
+    1202429287,
+    8514505320,
+    1202429125,
+    1202429181
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "12",
+    "addr:postcode": "DH1 3AA",
+    "addr:street": "Elvet Bridge",
+    "amenity": "restaurant",
+    "building": "retail",
+    "disused:shop": "charity",
+    "fhrs:id": "1798776",
+    "name": "FIIK",
+    "old_name": "Oxfam",
+    "website": "https://fiikdurham.co.uk/",
+    "wikidata": "Q26413895"
+  }
+},
+{
+  "type": "way",
+  "id": 104242090,
+  "center": {
+    "lat": 54.7758455,
+    "lon": -1.5745206
+  },
+  "nodes": [
+    1202931981,
+    9402612449,
+    1202931975,
+    1202932004,
+    1202931992,
+    9402612448,
+    9402612450,
+    1202932031,
+    1202932013,
+    1202931981
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "Basement",
+    "addr:housenumber": "41",
+    "addr:postcode": "DH1 3NU",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "754662",
+    "level": "-1",
+    "name": "The Cellar Door",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 104242107,
+  "center": {
+    "lat": 54.7757448,
+    "lon": -1.5744471
+  },
+  "nodes": [
+    1202931981,
+    1202932013,
+    5525385448,
+    1202932028,
+    5503508091,
+    5503508092,
+    5503508093,
+    9402612444,
+    5503508094,
+    9402612451,
+    5503508095,
+    5503508098,
+    5503508096,
+    5503508097,
+    81574962,
+    1202931981
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "43-44",
+    "addr:postcode": "DH1 3NU",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "brand": "Zizzi",
+    "brand:wikidata": "Q8072944",
+    "building": "yes",
+    "cuisine": "italian",
+    "fhrs:id": "1320810",
+    "name": "Zizzi",
+    "source:postcode": "FHRS data",
+    "website": "https://www.zizzi.co.uk/italian/restaurants/durham",
+    "wikidata": "Q26414542"
+  }
+},
+{
+  "type": "way",
+  "id": 104242110,
+  "center": {
+    "lat": 54.7760727,
+    "lon": -1.5746758
+  },
+  "nodes": [
+    1202932022,
+    1202931983,
+    5528963939,
+    1202931969,
+    1202931977,
+    1202932022
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "36",
+    "addr:postcode": "DH1 3NU",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "burger",
+    "fhrs:id": "866146",
+    "name": "Fat Hippo",
+    "phone": "+44 191 370 9699",
+    "source:addr": "FHRS Open Data",
+    "website": "https://fathippo.co.uk/page/durham",
+    "wikidata": "Q26414539"
+  }
+},
+{
+  "type": "way",
+  "id": 104242112,
+  "center": {
+    "lat": 54.7761922,
+    "lon": -1.5748478
+  },
+  "nodes": [
+    1202931978,
+    1202931970,
+    1202932002,
+    1202429193,
+    1202931978
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "32A",
+    "addr:postcode": "DH1 3NU",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "italian",
+    "disused:amenity": "restaurant",
+    "fhrs:id": "1583582",
+    "level": "1",
+    "name": "PICCO d'Italia",
+    "old_name": "Haripur Wala",
+    "website": "https://www.piccoditalia.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 104295690,
+  "center": {
+    "lat": 54.7756339,
+    "lon": -1.5743448
+  },
+  "nodes": [
+    5503508089,
+    5503508095,
+    9402612451,
+    5503508094,
+    9402612443,
+    1203410967,
+    5528963943,
+    5503508087,
+    5503508088,
+    5503508090,
+    5503508089
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "46",
+    "addr:postcode": "DH1 3NU",
+    "addr:street": "Saddler Street",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "1523246",
+    "name": "The Library",
+    "note": "Name changed in 2014. Due to ambiguity it still gets referred as Varsity.",
+    "old_name": "Varsity",
+    "operator": "Stonegate",
+    "operator:wikidata": "Q7619176",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.crafted-social.co.uk/library-durham"
+  }
+},
+{
+  "type": "way",
+  "id": 107710158,
+  "center": {
+    "lat": 54.7759356,
+    "lon": -1.5853309
+  },
+  "nodes": [
+    262423106,
+    1237361625,
+    1237361750,
+    1237360939,
+    1237360561,
+    1237361314,
+    1237361003,
+    1237360730,
+    1237360935,
+    1237361401,
+    1237361635,
+    1237360750,
+    262423106
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 4EG",
+    "amenity": "pub",
+    "brand": "Samuel Smith",
+    "brand:wikidata": "Q7412675",
+    "brewery": "Samuel Smith",
+    "building": "commercial",
+    "contact:facebook": "colpittshotel",
+    "fhrs:id": "1617264",
+    "internet_access": "no",
+    "name": "Colpitts Hotel",
+    "operator": "Samuel Smith",
+    "operator:wikidata": "Q7412675",
+    "outdoor_seating": "no",
+    "source:postcode": "FHRS data",
+    "wikidata": "Q26452894",
+    "wikimedia_commons": "File:The Colpitts Hotel, Durham - geograph.org.uk - 4788446.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 108746158,
+  "center": {
+    "lat": 54.7761148,
+    "lon": -1.5812791
+  },
+  "nodes": [
+    5548852504,
+    1246876839,
+    1246876553,
+    5548852503,
+    1246876778,
+    1246877038,
+    5548852504
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "53",
+    "addr:postcode": "DH1 4PR",
+    "addr:street": "Crossgate",
+    "amenity": "pub",
+    "building": "pub",
+    "fhrs:id": "1513104",
+    "name": "Angel Inn",
+    "ref:GB:uprn": "10014550850",
+    "source:addr": "FHRS Open Data",
+    "wikidata": "Q26597306"
+  }
+},
+{
+  "type": "way",
+  "id": 108746240,
+  "center": {
+    "lat": 54.7757387,
+    "lon": -1.5815965
+  },
+  "nodes": [
+    1246877148,
+    1246877110,
+    1246877375,
+    1246876877,
+    1246877148
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "12",
+    "addr:postcode": "DH1 4PS",
+    "addr:street": "Crossgate",
+    "alt_name": "Ye Old Elm Tree",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "1591449",
+    "flickr": "https://www.flickr.com/photos/16801915@N06/13017733585",
+    "food": "yes",
+    "name": "The Elm Tree",
+    "source:addr": "FHRS Open Data",
+    "source:postcode": "FHRS data"
+  }
+},
+{
+  "type": "way",
+  "id": 108746267,
+  "center": {
+    "lat": 54.7769257,
+    "lon": -1.5815110
+  },
+  "nodes": [
+    1246877326,
+    1246877205,
+    1246876935,
+    1246877056,
+    1246877326
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "5",
+    "addr:postcode": "DH1 4EY",
+    "addr:street": "Neville Street",
+    "amenity": "restaurant",
+    "building": "retail",
+    "contact:facebook": "DSWSUSHI",
+    "cuisine": "sushi",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "fhrs:id": "1578805",
+    "name": "Dingsway Sushi",
+    "old_name": "Jumping Bean",
+    "outdoor_seating": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 108746318,
+  "center": {
+    "lat": 54.7769210,
+    "lon": -1.5812211
+  },
+  "nodes": [
+    1246877060,
+    1246876722,
+    1246877133,
+    1246876984,
+    1246877060
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "29-33",
+    "addr:postcode": "DH1 4EY",
+    "addr:street": "Neville Street",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "1561724",
+    "name": "Bar 33",
+    "old_name": "The Fish Tank",
+    "website": "https://www.33durham.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 108746348,
+  "center": {
+    "lat": 54.7761857,
+    "lon": -1.5808022
+  },
+  "nodes": [
+    1246876516,
+    1246876804,
+    1246876738,
+    5548852506,
+    1246877064,
+    1246876800,
+    1246877139,
+    1246876516
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "57/58",
+    "addr:postcode": "DH1 4PR",
+    "addr:street": "Crossgate",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "1112562",
+    "name": "The Holy GrAle",
+    "old_name": "Dark Matter Cafe",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 108746383,
+  "center": {
+    "lat": 54.7762190,
+    "lon": -1.5796052
+  },
+  "nodes": [
+    5548854239,
+    5548854231,
+    5548854232,
+    1246876917,
+    5548854229,
+    5548854226,
+    1246876526,
+    5548854242,
+    5548854241,
+    5548854240,
+    5548854238,
+    5548854235,
+    5548854239
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "69",
+    "addr:postcode": "DH1 4PR",
+    "addr:street": "Crossgate",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "thai",
+    "fhrs:id": "655259",
+    "name": "Nadon Thai",
+    "outdoor_seating": "no",
+    "source:postcode": "FHRS data",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 108746399,
+  "center": {
+    "lat": 54.7770328,
+    "lon": -1.5814321
+  },
+  "nodes": [
+    1246876619,
+    1246877311,
+    1246876792,
+    1246877395,
+    1246877260,
+    1246876619
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "3",
+    "addr:postcode": "DH1 4EY",
+    "addr:street": "Neville Street",
+    "amenity": "restaurant",
+    "building": "commercial",
+    "cuisine": "asian",
+    "fhrs:id": "1776061",
+    "name": "Kung Fu Noodles",
+    "old_name": "Ali Babas",
+    "ref:GB:uprn": "100110739162",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 143920537,
+  "center": {
+    "lat": 54.7759279,
+    "lon": -1.5775149
+  },
+  "nodes": [
+    1574784845,
+    1574784825,
+    1574784821,
+    1574784788,
+    1574784844,
+    5509082504,
+    1574784845
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "21",
+    "addr:postcode": "DH1 3RB",
+    "addr:street": "Silver Street",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "turkish",
+    "fhrs:id": "1623668",
+    "name": "Akarsu",
+    "old_name": "Rib N Reef",
+    "outdoor_seating": "yes",
+    "ref:GB:uprn": "100110804349",
+    "source:addr": "website",
+    "website": "https://www.akarsuturkishrestaurantdurham.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 143920554,
+  "center": {
+    "lat": 54.7771353,
+    "lon": -1.5759591
+  },
+  "nodes": [
+    940847125,
+    1574785544,
+    1574785527,
+    1574785546,
+    1574785580,
+    10276319067,
+    4201124689,
+    6137511862,
+    940847125
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "27",
+    "addr:postcode": "DH1 3NJ",
+    "addr:street": "Market Place",
+    "amenity": "pub",
+    "brand": "Greene King",
+    "brand:wikidata": "Q5564162",
+    "building": "amenity",
+    "fhrs:id": "303299",
+    "name": "Market Tavern",
+    "ref:GB:uprn": "10013260475",
+    "website": "https://www.greeneking-pubs.co.uk/pubs/durham/market-tavern/",
+    "wikidata": "Q26453833"
+  }
+},
+{
+  "type": "way",
+  "id": 143920556,
+  "center": {
+    "lat": 54.7763462,
+    "lon": -1.5769694
+  },
+  "nodes": [
+    1574784986,
+    1574785020,
+    1574785027,
+    1574785006,
+    1574784986
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "29",
+    "addr:postcode": "DH1 3RD",
+    "addr:street": "Silver Street",
+    "amenity": "restaurant",
+    "building": "retail",
+    "delivery": "no",
+    "disused:shop": "outdoor",
+    "fhrs:id": "1604414",
+    "name": "Faru",
+    "old_name": "Mountain Warehouse",
+    "outdoor_seating": "no",
+    "takeaway": "no",
+    "website": "https://www.faru.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 143920560,
+  "center": {
+    "lat": 54.7767355,
+    "lon": -1.5763939
+  },
+  "nodes": [
+    1574785180,
+    7876580205,
+    1574785166,
+    1574785185,
+    1574785214,
+    1574785227,
+    1574785223,
+    1574785180
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "39",
+    "addr:postcode": "DH1 3RD",
+    "addr:street": "Silver Street",
+    "amenity": "restaurant",
+    "building": "commercial",
+    "cuisine": "italian",
+    "fhrs:id": "1037835",
+    "indoor_seating": "yes",
+    "name": "Uno Momento",
+    "old_name": "lounge",
+    "outdoor_seating": "yes",
+    "ref:GB:uprn": "100110738790"
+  }
+},
+{
+  "type": "way",
+  "id": 143920562,
+  "center": {
+    "lat": 54.7764290,
+    "lon": -1.5769328
+  },
+  "nodes": [
+    1574785020,
+    1574785062,
+    1574785078,
+    1574785066,
+    1574785037,
+    1574785027,
+    1574785020
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "30-31",
+    "addr:postcode": "DH1 3RD",
+    "addr:street": "Silver Street",
+    "amenity": "restaurant",
+    "building": "retail",
+    "check_date": "2022-12-16",
+    "cuisine": "pizza",
+    "disused:shop": "clothes",
+    "fhrs:id": "1672998",
+    "name": "Rudy's",
+    "old_name": "Superdry",
+    "source:postcode": "CodePoint Open",
+    "website": "https://www.rudyspizza.co.uk/pizzerias/durham"
+  }
+},
+{
+  "type": "way",
+  "id": 143920584,
+  "center": {
+    "lat": 54.7775004,
+    "lon": -1.5758029
+  },
+  "nodes": [
+    262421016,
+    1574785596,
+    1574785593,
+    6137511865,
+    262421016
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "yes",
+    "addr:postcode": "DH1 3NJ",
+    "addr:street": "Market Place",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "376120",
+    "name": "The Spice Lounge",
+    "ref:GB:uprn": "100110804140"
+  }
+},
+{
+  "type": "way",
+  "id": 143920590,
+  "center": {
+    "lat": 54.7761324,
+    "lon": -1.5773065
+  },
+  "nodes": [
+    1574784869,
+    1574784880,
+    1574784890,
+    1574784902,
+    1574784911,
+    1574784887,
+    1574784884,
+    1574784869
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:country": "GB",
+    "addr:housenumber": "23",
+    "addr:postcode": "DH1 3RD",
+    "addr:street": "Silver Street",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "asian",
+    "disused:shop": "e-cigarette",
+    "fhrs:id": "1644869",
+    "name": "Fusha",
+    "old_name": "VPZ",
+    "outdoor_seating": "no",
+    "website": "https://www.fusha.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 253513703,
+  "center": {
+    "lat": 54.7763723,
+    "lon": -1.5732155
+  },
+  "nodes": [
+    313069579,
+    4176648919,
+    4207887604,
+    2594369011,
+    313069579
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 3AF",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "303118",
+    "name": "Boat Club",
+    "old_name": "Chase",
+    "source:postcode": "FHRS data",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 253513704,
+  "center": {
+    "lat": 54.7759941,
+    "lon": -1.5786161
+  },
+  "nodes": [
+    11895645364,
+    11895645362,
+    3475001409,
+    2594368983,
+    2594368982,
+    267235728,
+    11895645364
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "Unit 30B",
+    "addr:postcode": "DH1 4PW",
+    "addr:street": "North Road",
+    "amenity": "bar",
+    "brand": "Revolution",
+    "brand:wikidata": "Q64024398",
+    "building": "yes",
+    "cocktails": "yes",
+    "fhrs:id": "1040888",
+    "indoor_seating": "yes",
+    "name": "Revolution",
+    "old_name": "The Bishop Langley",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 253513705,
+  "center": {
+    "lat": 54.7753841,
+    "lon": -1.5723807
+  },
+  "nodes": [
+    2594368977,
+    2594368975,
+    2594368976,
+    5253102497,
+    9208219224,
+    5253102499,
+    5253102498,
+    5253102501,
+    2594368977
+  ],
+  "tags": {
+    "accommodation": "yes",
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 3AQ",
+    "amenity": "pub",
+    "building": "amenity",
+    "dog": "yes",
+    "fhrs:id": "1098894",
+    "name": "The City",
+    "website": "http://cityhoteldurham.co.uk/",
+    "wikidata": "Q26608656"
+  }
+},
+{
+  "type": "way",
+  "id": 253513706,
+  "center": {
+    "lat": 54.7760604,
+    "lon": -1.5790979
+  },
+  "nodes": [
+    168555388,
+    2594368989,
+    2594368991,
+    2594368994,
+    168555388
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "4",
+    "addr:postcode": "DH1 4PP",
+    "addr:street": "South Street",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "1411197",
+    "flickr": "https://www.flickr.com/photos/50191609@N00/8515670929",
+    "name": "The Fighting Cocks"
+  }
+},
+{
+  "type": "way",
+  "id": 253513707,
+  "center": {
+    "lat": 54.7755580,
+    "lon": -1.5725980
+  },
+  "nodes": [
+    263761720,
+    5562852600,
+    2594368972,
+    5253102509,
+    5562852599,
+    5253102510,
+    5562852596,
+    2594368971,
+    4207887840,
+    5562852597,
+    9661402774,
+    2594368974,
+    263761720
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "86",
+    "addr:postcode": "DH1 3AQ",
+    "addr:street": "New Elvet",
+    "amenity": "pub",
+    "building": "yes",
+    "dog": "yes",
+    "fhrs:id": "594659",
+    "name": "Half Moon Inn",
+    "outdoor_seating": "yes",
+    "source:addr": "FHRS Open Data",
+    "wikidata": "Q26414592",
+    "wikimedia_commons": "File:Half Moon Inn, Durham.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 253513708,
+  "center": {
+    "lat": 54.7758864,
+    "lon": -1.5724854
+  },
+  "nodes": [
+    4913673803,
+    6137570860,
+    2594368984,
+    4913673802,
+    2594368985,
+    5254233725,
+    243530732,
+    2594368981,
+    2594368980,
+    8584208921,
+    2594368979,
+    6137570861,
+    4913673803
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 3AG",
+    "addr:street": "Elvet Bridge",
+    "amenity": "pub",
+    "building": "pub",
+    "fhrs:id": "303119",
+    "name": "The Swan & Three Cygnets",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 253513709,
+  "center": {
+    "lat": 54.7773249,
+    "lon": -1.5809750
+  },
+  "nodes": [
+    254627789,
+    3493418430,
+    2594369036,
+    5546050596,
+    3778784331,
+    8119173538,
+    254627789
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "65",
+    "addr:postcode": "DH1 4SQ",
+    "addr:street": "North Road",
+    "alt_name": "The Waterhouse",
+    "amenity": "pub",
+    "brand": "Amber Taverns",
+    "brand:wikidata": "Q122829228",
+    "building": "yes",
+    "fhrs:id": "1631531",
+    "name": "The Water House",
+    "operator": "Amber Taverns",
+    "website": "https://ambertaverns.co.uk/pub/20961/"
+  }
+},
+{
+  "type": "way",
+  "id": 253513710,
+  "center": {
+    "lat": 54.7763879,
+    "lon": -1.5738144
+  },
+  "nodes": [
+    1273205402,
+    1202361918,
+    1202362020,
+    1202362438,
+    2594369007,
+    6137511857,
+    1273205402
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "47",
+    "addr:postcode": "DH1 3UJ",
+    "addr:street": "High Street",
+    "amenity": "bar",
+    "building": "amenity",
+    "fhrs:id": "303972",
+    "name": "Saints Bar",
+    "old_name": "Whisky River",
+    "ref:GB:uprn": "10014557908",
+    "website": "https://www.saintsbardurham.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 253513712,
+  "center": {
+    "lat": 54.7768656,
+    "lon": -1.5796024
+  },
+  "nodes": [
+    289096592,
+    2594369018,
+    2594369017,
+    2594369019,
+    7897618815,
+    7897618812,
+    7897618813,
+    7897618814,
+    289096592
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "80-83",
+    "addr:postcode": "DH1 4SQ",
+    "addr:street": "North Road",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "303376",
+    "name": "The Three Bridges",
+    "old_name": "The William Hedley",
+    "operator": "Stonegate",
+    "operator:wikidata": "Q7619176",
+    "outdoor_seating": "yes",
+    "ref:GB:uprn": "200003216321",
+    "website": "https://www.greatukpubs.co.uk/three-bridges-durham",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 253676694,
+  "center": {
+    "lat": 54.7786916,
+    "lon": -1.5752712
+  },
+  "nodes": [
+    2595752111,
+    950794189,
+    950793572,
+    2595752100,
+    950793846,
+    950793625,
+    1108411220,
+    2595752094,
+    2595752105,
+    2595752111
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 1SQ",
+    "addr:street": "Walkergate Place",
+    "addr:unit": "Unit 7",
+    "amenity": "bar",
+    "brand": "Slug and Lettuce",
+    "brand:wikidata": "Q7542224",
+    "building": "yes",
+    "cocktails": "yes",
+    "contact:facebook": "https://www.facebook.com/slugandlettucedurham",
+    "contact:instagram": "https://www.instagram.com/slugandlettucebars",
+    "fhrs:id": "303259",
+    "food": "yes",
+    "layer": "1",
+    "name": "Slug and Lettuce",
+    "old_name": "Missoula",
+    "operator": "Stonegate",
+    "operator:wikidata": "Q7619176",
+    "outdoor_seating": "yes",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.slugandlettuce.co.uk/durham"
+  }
+},
+{
+  "type": "way",
+  "id": 334673685,
+  "center": {
+    "lat": 54.7770920,
+    "lon": -1.5799901
+  },
+  "nodes": [
+    940755143,
+    3417346755,
+    3778784308,
+    3417346751,
+    3417346750,
+    12881385122,
+    3417346758,
+    3417346760,
+    940755143
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "3",
+    "addr:postcode": "DH1 4RZ",
+    "addr:street": "Reform Place",
+    "amenity": "pub",
+    "building": "commercial",
+    "fhrs:id": "510668",
+    "flickr": "https://www.flickr.com/photos/50191609@N00/8516785778",
+    "name": "The Head of Steam",
+    "outdoor_seating": "yes",
+    "ref:GB:uprn": "200003219666",
+    "source:postcode": "FHRS data",
+    "website": "https://www.theheadofsteam.co.uk/bars/durham"
+  }
+},
+{
+  "type": "way",
+  "id": 334851640,
+  "center": {
+    "lat": 54.7783117,
+    "lon": -1.5837808
+  },
+  "nodes": [
+    289097981,
+    3419726278,
+    3419726279,
+    3419726264,
+    3419726257,
+    3419726254,
+    3419726262,
+    5538697070,
+    3419726253,
+    289097981
+  ],
+  "tags": {
+    "accommodation": "yes",
+    "addr:city": "Durham",
+    "addr:housenumber": "40",
+    "addr:postcode": "DH1 4SE",
+    "addr:street": "North Road",
+    "amenity": "pub",
+    "building": "commercial",
+    "fhrs:id": "1801593",
+    "food": "yes",
+    "name": "The Bridge Hotel",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 334851641,
+  "center": {
+    "lat": 54.7829716,
+    "lon": -1.5856604
+  },
+  "nodes": [
+    271984747,
+    3419727955,
+    3419727956,
+    3419727957,
+    3419727958,
+    3419727961,
+    3419727960,
+    3419727959,
+    3419727962,
+    3419727965,
+    3419727966,
+    3419727967,
+    3419727968,
+    3419727969,
+    3419727970,
+    3419727971,
+    3419727972,
+    3419727974,
+    3419727975,
+    3419727980,
+    3419727983,
+    3419727984,
+    3419727982,
+    3419727979,
+    3419727978,
+    3419727976,
+    3419727981,
+    271984747
+  ],
+  "tags": {
+    "accommodation": "yes",
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 4NQ",
+    "addr:street": "North Road",
+    "amenity": "pub",
+    "building": "commercial",
+    "building:levels": "2",
+    "fhrs:id": "1648904",
+    "food": "yes",
+    "name": "The Cartologist",
+    "old_name": "The Garden House Inn",
+    "opening_hours": "Mo-Sa 12:00-23:00, Su 12:00-22:30",
+    "outdoor_seating": "yes",
+    "ref:GB:uprn": "200003216263",
+    "roof:levels": "1",
+    "source:postcode": "FHRS data",
+    "website": "https://www.thecartologist.co.uk/",
+    "wikimedia_commons": "File:The Garden House Inn - geograph.org.uk - 3414000.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 374436106,
+  "center": {
+    "lat": 54.7762173,
+    "lon": -1.5787123
+  },
+  "nodes": [
+    3778281340,
+    3778281334,
+    5451790339,
+    3778281332,
+    11581683962,
+    3778281337,
+    3778281344,
+    8827341408,
+    3778281340
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "3",
+    "addr:postcode": "DH1 4SL",
+    "addr:street": "Framwelgate Bridge",
+    "amenity": "restaurant",
+    "building": "retail",
+    "disused:amenity": "cafe",
+    "fhrs:id": "1791510",
+    "indoor_seating": "yes",
+    "name": "The Curious Mr Fox",
+    "old_name": "Ciao Ciao",
+    "outdoor_seating": "yes",
+    "website": "https://www.thecuriousmrfox.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 374436109,
+  "center": {
+    "lat": 54.7763607,
+    "lon": -1.5787300
+  },
+  "nodes": [
+    3778281352,
+    3778281355,
+    3778281354,
+    3779540057,
+    3779539656,
+    3778281351,
+    3778801403,
+    3778281352
+  ],
+  "tags": {
+    "HE_ref": "1310686",
+    "addr:city": "Durham",
+    "addr:housenumber": "33",
+    "addr:postcode": "DH1 4SL",
+    "addr:street": "The Riverwalk",
+    "amenity": "bar",
+    "building": "retail",
+    "fhrs:id": "1021569",
+    "listed_status": "Grade II",
+    "name": "Old Tom's Gin Bar",
+    "outdoor_seating": "yes",
+    "website": "https://www.oldtomsdurham.co.uk/en/",
+    "wikidata": "Q26597141"
+  }
+},
+{
+  "type": "way",
+  "id": 374487686,
+  "center": {
+    "lat": 54.7764292,
+    "lon": -1.5794938
+  },
+  "nodes": [
+    3778784154,
+    3778784149,
+    3778784144,
+    3778784150,
+    3778784154
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "1-4",
+    "addr:postcode": "DH1 4SH",
+    "addr:street": "North Road",
+    "addr:unit": "6",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "chinese",
+    "disused:shop": "bakery",
+    "fhrs:id": "1836845",
+    "name": "Happiness 2",
+    "old_name": "Cooplands",
+    "outdoor_seating": "no",
+    "ref:GB:uprn": "200003216607"
+  }
+},
+{
+  "type": "way",
+  "id": 374487710,
+  "center": {
+    "lat": 54.7768899,
+    "lon": -1.5809235
+  },
+  "nodes": [
+    3778784297,
+    3778784304,
+    3778784284,
+    8939361645,
+    3778784297
+  ],
+  "tags": {
+    "HE_ref": "1121435",
+    "addr:housenumber": "17",
+    "addr:postcode": "DH1 4SH",
+    "amenity": "restaurant",
+    "building": "commercial",
+    "cuisine": "korean",
+    "disused:shop": "bicycle",
+    "fhrs:id": "1806245",
+    "listed_status": "Grade II",
+    "name": "Happiness 2 Barbeque",
+    "note": "Former Miners' Hall",
+    "note_1": "Recyke y'bike moved to ropery lane, chester-le-street, opposite the cricket ground",
+    "old_name": "Recyke y'bike",
+    "wikidata": "Q26414605"
+  }
+},
+{
+  "type": "way",
+  "id": 374487738,
+  "center": {
+    "lat": 54.7769459,
+    "lon": -1.5800937
+  },
+  "nodes": [
+    3778784288,
+    3778784292,
+    3778784295,
+    3778784305,
+    5506367502,
+    3778784296,
+    3778784293,
+    3778784288
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "Reform Place",
+    "addr:postcode": "DH1 4RZ",
+    "addr:street": "North Road",
+    "amenity": "restaurant",
+    "building": "retail",
+    "building:levels": "2",
+    "fhrs:id": "1535513",
+    "name": "Coarse",
+    "old_name": "Courtyard Kitchen",
+    "opening_hours": "Th-Sa 12:00-15:00; We-Sa 17:00-23:00",
+    "outdoor_seating": "yes",
+    "phone": "+44 191 374 1123",
+    "source:postcode": "FHRS data",
+    "web": "https://www.coarse.restaurant/",
+    "website": "https://www.coarse.restaurant/"
+  }
+},
+{
+  "type": "way",
+  "id": 374487741,
+  "center": {
+    "lat": 54.7768505,
+    "lon": -1.5801143
+  },
+  "nodes": [
+    3778784288,
+    3778784293,
+    3778784283,
+    8119173526,
+    3778784279,
+    3778784288
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "76",
+    "addr:postcode": "DH1 4SQ",
+    "addr:street": "North Road",
+    "amenity": "bar",
+    "building": "retail",
+    "contact:facebook": "crushdurham",
+    "fhrs:id": "1754868",
+    "name": "Crush",
+    "old_name": "Threads",
+    "outdoor_seating": "no",
+    "was:shop": "clothes"
+  }
+},
+{
+  "type": "way",
+  "id": 374487744,
+  "center": {
+    "lat": 54.7767346,
+    "lon": -1.5807511
+  },
+  "nodes": [
+    8939361646,
+    2595751982,
+    12244897348,
+    12244897349,
+    3778784282,
+    8094361785,
+    3778784266,
+    1246876646,
+    3779588143,
+    8939361645,
+    3778784297,
+    8939361646
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "13-14",
+    "addr:postcode": "DH1 4SH",
+    "addr:street": "North Road",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "1202478",
+    "name": "Babylon Bar & Kitchen",
+    "ref:GB:uprn": "200003216417",
+    "source:addr": "Facebook page",
+    "wikidata": "Q40581390",
+    "wikimedia_commons": "File:Robins Cinema (5640798970).jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 374565545,
+  "center": {
+    "lat": 54.7779488,
+    "lon": -1.5821308
+  },
+  "nodes": [
+    3779592922,
+    3779592920,
+    3779592919,
+    3779592917,
+    3779592921,
+    3779592922
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "50-51",
+    "addr:postcode": "DH1 4SF",
+    "addr:street": "North Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "indian",
+    "fhrs:id": "303590",
+    "name": "Alishaan",
+    "outdoor_seating": "no",
+    "ref:GB:uprn": "200003219996",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 374565596,
+  "center": {
+    "lat": 54.7777868,
+    "lon": -1.5821791
+  },
+  "nodes": [
+    3779592904,
+    3779592907,
+    3779592911,
+    3779592910,
+    3779592906,
+    5644451641,
+    3779592904
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "53",
+    "addr:postcode": "DH1 4SF",
+    "addr:street": "North Road",
+    "amenity": "restaurant",
+    "building": "yes",
+    "fhrs:id": "1723302",
+    "name": "Isla Restaurant",
+    "old_name": "Bean Social",
+    "outdoor_seating": "no",
+    "ref:GB:uprn": "10013260290",
+    "website": "https://www.islabycoarse.restaurant/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 374565620,
+  "center": {
+    "lat": 54.7776384,
+    "lon": -1.5818217
+  },
+  "nodes": [
+    3779592895,
+    3779592898,
+    3779592897,
+    3779592891,
+    3779592889,
+    3779592895
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "56",
+    "addr:postcode": "DH1 4SF",
+    "addr:street": "North Road",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "chinese",
+    "fhrs:id": "1077315",
+    "name": "Fifty Six",
+    "old_name": "Mind"
+  }
+},
+{
+  "type": "way",
+  "id": 404980976,
+  "center": {
+    "lat": 54.7742035,
+    "lon": -1.5699791
+  },
+  "nodes": [
+    4072166376,
+    4072166381,
+    4072166382,
+    4074833529,
+    4074833541,
+    4072166385,
+    4072166376
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 3JS",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "thai",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "fhrs:id": "303223",
+    "indoor_seating": "yes",
+    "name": "Zen Asian Dining",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "ref:GB:uprn": "10013820400",
+    "source:postcode": "FHRS data",
+    "takeaway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 419884866,
+  "center": {
+    "lat": 54.7667254,
+    "lon": -1.5927043
+  },
+  "nodes": [
+    4198763989,
+    4198763990,
+    4198763991,
+    4198763992,
+    4198763993,
+    4198763994,
+    4198763995,
+    4198763996,
+    4198763989
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 3QN",
+    "addr:street": "Darlington Road",
+    "amenity": "pub",
+    "brand": "Ember Inns",
+    "brand:wikidata": "Q116272278",
+    "building": "yes",
+    "check_date": "2023-04-22",
+    "contact:website": "https://www.emberinns.co.uk/nationalsearch/northeast/the-duke-of-wellington-durham",
+    "fhrs:authority": "Durham",
+    "fhrs:id": "303088",
+    "fhrs:local_authority_id": "706",
+    "fhrs:rating": "4",
+    "name": "Duke of Wellington",
+    "operator": "Ember Inns",
+    "outdoor_seating": "yes",
+    "source:postcode": "CodePoint Open",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:Duke of Wellington - geograph.org.uk - 787829.jpg"
+  }
+},
+{
+  "type": "way",
+  "id": 438874923,
+  "center": {
+    "lat": 54.7783220,
+    "lon": -1.5834094
+  },
+  "nodes": [
+    4365234502,
+    4365234503,
+    10159156864,
+    3419726266,
+    4365234505,
+    4365234502
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "The Station House",
+    "addr:postcode": "DH1 4SE",
+    "addr:street": "North Road",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "842659",
+    "indoor_seating": "yes",
+    "name": "The Station House",
+    "opening_hours": "Mo-Su",
+    "outdoor_seating": "no",
+    "smoking": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 461915430,
+  "center": {
+    "lat": 54.7785594,
+    "lon": -1.5764704
+  },
+  "nodes": [
+    4573501459,
+    5031967183,
+    5031967182,
+    5031967181,
+    4573501459
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housename": "The Kiosk",
+    "addr:postcode": "DH1 1SL",
+    "amenity": "bar",
+    "building": "yes",
+    "fhrs:id": "1150662",
+    "name": "Coho",
+    "outdoor_seating": "yes",
+    "source:addr": "FHRS Open Data",
+    "website": "https://cohodurham.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 543404122,
+  "center": {
+    "lat": 54.7757047,
+    "lon": -1.5727392
+  },
+  "nodes": [
+    5253102731,
+    5253102729,
+    5253102728,
+    5253102730,
+    5253102731
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "93",
+    "addr:postcode": "DH1 3AG",
+    "addr:street": "Old Elvet",
+    "amenity": "bar",
+    "building": "retail",
+    "fixme": "Not yet open?",
+    "layer": "1",
+    "location": "bridge",
+    "name": "Mixology",
+    "old_name": "sta travel",
+    "wikidata": "Q26608989"
+  }
+},
+{
+  "type": "way",
+  "id": 574824691,
+  "center": {
+    "lat": 54.7760428,
+    "lon": -1.5750205
+  },
+  "nodes": [
+    5516872739,
+    9402612463,
+    5516872740,
+    3417346747,
+    3417346745,
+    9402612465,
+    9402612462,
+    9402612466,
+    5516872739
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "64",
+    "addr:postcode": "DH1 3PG",
+    "addr:street": "Saddler Street",
+    "amenity": "restaurant",
+    "brand": "PizzaExpress",
+    "brand:wikidata": "Q662845",
+    "brand:wikipedia": "en:PizzaExpress",
+    "building": "yes",
+    "cuisine": "pizza",
+    "fhrs:id": "303418",
+    "name": "PizzaExpress",
+    "website": "https://www.pizzaexpress.com/durham-saddler-street"
+  }
+},
+{
+  "type": "way",
+  "id": 574824692,
+  "center": {
+    "lat": 54.7759822,
+    "lon": -1.5750058
+  },
+  "nodes": [
+    5516872739,
+    9402612466,
+    5516872742,
+    5516872743,
+    5516872747,
+    5516872744,
+    5516872739
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "63",
+    "addr:postcode": "DH1 3NU",
+    "addr:street": "Saddler Street",
+    "amenity": "pub",
+    "building": "yes",
+    "fhrs:id": "480498",
+    "name": "The Shakespeare",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 582016944,
+  "center": {
+    "lat": 54.7750948,
+    "lon": -1.5685586
+  },
+  "nodes": [
+    5567417665,
+    6918271529,
+    243607640,
+    5567417661,
+    9897353260,
+    9897353252,
+    9897353261,
+    5567417664,
+    9897353263,
+    5567417665
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "37",
+    "addr:postcode": "DH1 3HN",
+    "addr:street": "Old Elvet",
+    "amenity": "pub",
+    "building": "amenity",
+    "fhrs:id": "687798",
+    "name": "The Dun Cow",
+    "source:postcode": "FHRS data",
+    "wikidata": "Q26414589"
+  }
+},
+{
+  "type": "way",
+  "id": 655031413,
+  "center": {
+    "lat": 54.7767241,
+    "lon": -1.5754919
+  },
+  "nodes": [
+    1574785263,
+    6137511851,
+    12910599854,
+    6137511850,
+    6137511846,
+    6137511847,
+    5538595858,
+    5538595857,
+    1574785184,
+    1574785263
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "11",
+    "addr:postcode": "DH1 3NE",
+    "addr:street": "Market Place",
+    "amenity": "restaurant",
+    "building": "amenity",
+    "check_date": "2023-12-31",
+    "fhrs:id": "376121",
+    "flickr": "https://www.flickr.com/photos/16801915@N06/13017782485",
+    "name": "Bells Fish and Chips",
+    "outdoor_seating": "no",
+    "takeaway": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q26608986"
+  }
+},
+{
+  "type": "way",
+  "id": 669415563,
+  "center": {
+    "lat": 54.7765147,
+    "lon": -1.5768453
+  },
+  "nodes": [
+    1574785065,
+    6268660559,
+    1574785102,
+    1574785082,
+    1574785065
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:housenumber": "32",
+    "addr:postcode": "DH1 3RD",
+    "addr:street": "Silver Street",
+    "amenity": "restaurant",
+    "cuisine": "mediterranean",
+    "fhrs:id": "1047463",
+    "name": "Gussto",
+    "old_name": "Café Sisters",
+    "source:addr": "FHRS Open Data",
+    "website": "https://www.gusstodurham.co.uk/"
+  }
+},
+{
+  "type": "way",
+  "id": 943996774,
+  "center": {
+    "lat": 54.7788547,
+    "lon": -1.5559985
+  },
+  "nodes": [
+    922658289,
+    270841268,
+    9370709853,
+    8740213739,
+    8740213738,
+    8740213737,
+    8740213736,
+    922658289
+  ],
+  "tags": {
+    "accommodation": "yes",
+    "addr:city": "Durham",
+    "addr:housenumber": "2",
+    "addr:postcode": "DH1 2JR",
+    "addr:street": "Sherburn Road",
+    "amenity": "pub",
+    "building": "commercial",
+    "check_date": "2025-07-18",
+    "fhrs:id": "1636579",
+    "image": "https://www.geograph.org.uk/photo/4501969",
+    "name": "Queen's Head",
+    "source:addr": "FHRS Open Data"
+  }
+},
+{
+  "type": "way",
+  "id": 943996775,
+  "center": {
+    "lat": 54.7791170,
+    "lon": -1.5540048
+  },
+  "nodes": [
+    411531612,
+    270841272,
+    10178650339,
+    8740213749,
+    8740213748,
+    8740213747,
+    8740213746,
+    411531612
+  ],
+  "tags": {
+    "addr:city": "Durham",
+    "addr:postcode": "DH1 2JT",
+    "amenity": "pub",
+    "building": "commercial",
+    "check_date": "2025-07-18",
+    "fhrs:id": "303463",
+    "image": "https://www.geograph.org.uk/photo/4501985",
+    "name": "The Shoes",
+    "outdoor_seating": "yes",
+    "source:postcode": "OS CodePoint Open"
+  }
+}
+
+  ]
+}
