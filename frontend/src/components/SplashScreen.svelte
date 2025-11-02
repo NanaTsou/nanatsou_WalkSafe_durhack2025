@@ -4,7 +4,7 @@
 
 <div class="splash" transition:fade>
   <div class="logo">WalkSafe</div>
-  <p>Preparing safety insights for your route…</p>
+  <p>Your Campus Guardian</p>
   <div class="progress">
     <div class="bar" />
   </div>
